@@ -1,0 +1,66 @@
+{
+    // 推送版本大于该参数就更新
+    "time": 1678456660892,
+    // 用户可读时间，无意义参数
+    "date": "2023-03-10",
+    // 允许推送更新
+    "update": true,
+    /**
+     * 定义您的主题对应的背景图片，可使用的名称如下:
+     * amber blue blue_light brown cyan
+     * green green_light grey blue_grey
+     * indigo lime orange orange_deep
+     * pink purple purple_deep red teal
+     * yellow black black_dark white
+     */
+    "black": [
+        /**
+         * 这里是一个字符串组，当大于1个时每次进入主页随机显示
+         * 可填写网络图片链接，或手机里的图片路径（需要读写手机储存权限）
+         * 如果填写有误、资源不存在或为空，此项参数将无意义
+         *
+         * "/storage/emulated/0/Download/xxx.jpg",
+         * "http://xxx.xxx.com/xxxx.jpg"
+         */
+        "https://raw.githubusercontent.com/unexpecteds/TrafficStats/main/theme/black.jpg"
+    ],
+    "blue": [
+        "https://raw.githubusercontent.com/unexpecteds/TrafficStats/main/theme/blue.png"
+    ],
+    "blue_light": [
+        "https://raw.githubusercontent.com/unexpecteds/TrafficStats/main/theme/blue_light.jpg"
+    ],
+    "brown": [
+        "https://raw.githubusercontent.com/unexpecteds/TrafficStats/main/theme/brown.webp"
+    ],
+    "cyan": [
+        "https://raw.githubusercontent.com/unexpecteds/TrafficStats/main/theme/cyan.jpg"
+    ],
+    "indigo": [
+        "https://raw.githubusercontent.com/unexpecteds/TrafficStats/main/theme/indigo.jpg"
+    ],
+    "orange": [
+        "https://raw.githubusercontent.com/unexpecteds/TrafficStats/main/theme/orange.jpg"
+    ],
+    "orange_deep": [
+        "https://raw.githubusercontent.com/unexpecteds/TrafficStats/main/theme/orange_deep.jpg"
+    ],
+    "pink": [
+        "https://raw.githubusercontent.com/unexpecteds/TrafficStats/main/theme/pink.webp"
+    ],
+    "purple": [
+        "https://raw.githubusercontent.com/unexpecteds/TrafficStats/main/theme/purple.jpg"
+    ],
+    "purple_deep": [
+        "https://raw.githubusercontent.com/unexpecteds/TrafficStats/main/theme/purple_deep.png"
+    ],
+    "red": [
+        "https://raw.githubusercontent.com/unexpecteds/TrafficStats/main/theme/red.png"
+    ],
+    "teal": [
+        "https://raw.githubusercontent.com/unexpecteds/TrafficStats/main/theme/teal.png"
+    ],
+    "white": [
+        "https://raw.githubusercontent.com/unexpecteds/TrafficStats/main/theme/white.jpg"
+    ]
+}

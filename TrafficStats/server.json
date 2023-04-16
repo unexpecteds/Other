@@ -1,0 +1,233 @@
+{
+    // 推送版本大于该参数就更新
+    "time": 1675771737487,
+    // 用户可读时间，无意义参数
+    "date": "2023-02-07",
+    // 允许推送更新
+    "update": true,
+    // 服务界面 item 列数，范围: 1 ~ 5
+    "spanCount": 3,
+    "resources": [
+        {
+            /**
+             * icon 可以使用网络图片或手机里的图片（需要读写手机储存权限）
+             * 不写 icon 或资源不存在，则使用内置的“联通图片”
+             */
+            "icon": "https://m1.img.10010.com/resources/63E516FFDA114E0D31DEF646BE06F5E9/20220120/png/20220120174453.png",
+            "title": "上网记录",
+            "url": "*"// 由于上网记录界面没有使用网页，所以 * 代表上网记录
+        },
+        {
+            "title": "隐藏业务",
+            "url": "**"
+        },
+        {
+            "title": "使用量分析",
+            "url": "https://img.client.10010.com/shiyongliangfenxi/index.html"
+        },
+        {
+            "icon": "https://m1.img.10010.com/resources/63E516FFDA114E0D31DEF646BE06F5E9/20220120/png/20220120175047.png",
+            "title": "我已订购(旧)",
+            "url": "https://m.client.10010.com/mobileService/operationservice/queryOrderRelationshipTwo.htm"
+        },
+        {
+            "title": "隐藏业务(办理记录)",
+            "url": "https://m.client.10010.com/mobileservicequery/query/queryBusinessRecordDetails"
+        },
+        {
+            "icon": "https://m1.img.10010.com/resources/63E516FFDA114E0D31DEF646BE06F5E9/20220120/png/20220120175047.png",
+            "title": "我已订购",
+            "url": "https://img.client.10010.com/woyidinggou/index.html"
+        },
+        {
+            "icon": "https://m1.img.10010.com/resources/63E516FFDA114E0D31DEF646BE06F5E9/20220225/png/20220225112705.png",
+            "title": "历史账单",
+            "url": "https://img.client.10010.com/huafeiyuzhangdan2/index.html"
+        },
+        {
+            "icon": "https://m1.img.10010.com/resources/63E516FFDA114E0D31DEF646BE06F5E9/20220120/png/20220120175229.png",
+            "title": "业务办理记录",
+            "url": "https://img.client.10010.com/yewubanlijilu/index.html#/business"
+        },
+        {
+            "icon": "https://m1.img.10010.com/resources/63E516FFDA114E0D31DEF646BE06F5E9/20220120/png/20220120174053.png",
+            "title": "交费记录",
+            "url": "https://m.client.10010.com/mobileService/paymanager/businessTransact/orderForm.htm"
+        },
+        {
+            "icon": "https://m1.img.10010.com/resources/63E516FFDA114E0D31DEF646BE06F5E9/20220120/png/20220120175157.png",
+            "title": "详单查询",
+            "url": "https://img.client.10010.com/xiangdanhebing/index.html#/phone"
+        },
+        {
+            "icon": "https://m1.img.10010.com/resources/63E516FFDA114E0D31DEF646BE06F5E9/20220120/png/20220120175021.png",
+            "title": "我的基本信息",
+            "url": "https://img.client.10010.com/newwodexinxi/index.html"
+        },
+        {
+            "icon": "https://m1.img.10010.com/resources/63E516FFDA114E0D31DEF646BE06F5E9/20220120/png/20220120174655.png",
+            "title": "剩余话费",
+            "url": "https://img.client.10010.com/shengyuhuafei2/index.html"
+        },
+        {
+            "icon": "https://m1.img.10010.com/resources/7188192A31B5AE06E41B64DA6D65A9B0/20211130/png/20211130164125.png",
+            "title": "我的礼包",
+            "url": "https://m.client.10010.com/myPrizeForActivity/tenth517/homePage"
+        },
+        {
+            "icon": "https://m1.img.10010.com/resources/63E516FFDA114E0D31DEF646BE06F5E9/20201027/png/20201027185517.png",
+            "title": "我的套餐",
+            "url": "https://img.client.10010.com/wodetaocan/index.html"
+        },
+        {
+            "icon": "https://m1.img.10010.com/resources/63E516FFDA114E0D31DEF646BE06F5E9/20201027/png/20201027190027.png",
+            "title": "沃之树",
+            "url": "https://img.client.10010.com/mactivity/woTree/index.html?40054&98-0001-0111-0005"
+        },
+        {
+            "icon": "https://m1.img.10010.com/resources/63E516FFDA114E0D31DEF646BE06F5E9/20220120/png/20220120174416.png",
+            "title": "零钱账户",
+            "url": "https://m.client.10010.com/mobileService/openPlatform/openPlatLine.htm?to_url=https://img.client.10010.com/lingqianzhanghu/"
+        },
+        {
+            "icon": "https://m1.img.10010.com/resources/63E516FFDA114E0D31DEF646BE06F5E9/20220112/png/20220112140525.png",
+            "title": "生日礼包",
+            "url": "https://img.client.10010.com/shengrijifenzhufu/index.html"
+        },
+        {
+            "icon": "https://m1.img.10010.com/resources/63E516FFDA114E0D31DEF646BE06F5E9/20220120/png/20220120173900.png",
+            "title": "号码归属地",
+            "url": "https://img.client.10010.com/haomaguishudi/index.html"
+        },
+        {
+            "icon": "https://m1.img.10010.com/resources/63E516FFDA114E0D31DEF646BE06F5E9/20220120/png/20220120173919.png",
+            "title": "黑名单",
+            "url": "https://img.client.10010.com/heimingdan/index.html"
+        },
+        {
+            "icon": "https://m1.img.10010.com/resources/63E516FFDA114E0D31DEF646BE06F5E9/20220120/png/20220120175305.png",
+            "title": "一证通查",
+            "url": "https://getsimnum.caict.ac.cn"
+        },
+        {
+            "icon": "https://m1.img.10010.com/resources/63E516FFDA114E0D31DEF646BE06F5E9/20220120/png/20220120175113.png",
+            "title": "沃号码(我的号码)",
+            "url": "https://m.client.10010.com/mobileService/operationservice/naturenumber/queryNatureNumberMain.htm?menuId=001100010016"
+        },
+        {
+            "icon": "https://m1.img.10010.com/resources/63E516FFDA114E0D31DEF646BE06F5E9/20220120/png/20220120170302.png",
+            "title": "流量专区",
+            "url": "https://img.client.10010.com/liuliangzhuanqu/index.html?webViewNavIsHidden=true"
+        },
+        {
+            "icon": "https://m1.img.10010.com/resources/63E516FFDA114E0D31DEF646BE06F5E9/20220120/png/20220120171404.png",
+            "title": "增值业务退订",
+            "url": "https://m.client.10010.com/ServiceClientBusiness/businessTransact/valueAdded/queryValueAdded.htm?menuId=000300060019"
+        },
+        {
+            "icon": "https://m1.img.10010.com/resources/63E516FFDA114E0D31DEF646BE06F5E9/20220120/png/20220120170656.png",
+            "title": "停机保号/复机",
+            "url": "https://img.client.10010.com/tingjibaohao/index.html"
+        },
+        {
+            "icon": "https://m1.img.10010.com/resources/63E516FFDA114E0D31DEF646BE06F5E9/20220120/png/20220120165013.png",
+            "title": "紧急开机",
+            "url": "https://img.client.10010.com/jinjikaiji/index.html"
+        },
+        {
+            "icon": "https://m1.img.10010.com/resources/63E516FFDA114E0D31DEF646BE06F5E9/20220120/png/20220120164930.png",
+            "title": "解除流量封顶",
+            "url": "https://img.client.10010.com/liuliangfengding/index.html"
+        },
+        {
+            "icon": "https://m1.img.10010.com/resources/63E516FFDA114E0D31DEF646BE06F5E9/20220120/png/20220120171708.png",
+            "title": "自助复通",
+            "url": "https://img.client.10010.com/xinanfuji/index.html"
+        },
+        {
+            "icon": "https://m1.img.10010.com/resources/63E516FFDA114E0D31DEF646BE06F5E9/20220120/png/20220120170656.png",
+            "title": "修改服务密码",
+            "url": "https://img.client.10010.com/xiugaifuwumima/index.html"
+        },
+        {
+            "icon": "https://m1.img.10010.com/resources/63E516FFDA114E0D31DEF646BE06F5E9/20220120/png/20220120171433.png",
+            "title": "找回服务密码",
+            "url": "https://img.client.10010.com/fuwumimachongzhi/index.html"
+        },
+        {
+            "icon": "https://m1.img.10010.com/resources/63E516FFDA114E0D31DEF646BE06F5E9/20220609/png/20220609002048.png",
+            "title": "预约销户",
+            "url": "https://img.client.10010.com/xiaohutuifei/index.html#/pageNewHome"
+        },
+        {
+            "icon": "https://m1.img.10010.com/resources/63E516FFDA114E0D31DEF646BE06F5E9/20220120/png/20220120162859.png",
+            "title": "VoLET高清通话",
+            "url": "https://img.client.10010.com/volteswitch/index.html"
+        },
+        {
+            "icon": "https://m1.img.10010.com/resources/63E516FFDA114E0D31DEF646BE06F5E9/20220120/png/20220120164810.png",
+            "title": "开/关呼叫转移",
+            "url": "https://img.client.10010.com/hujiaozhuanyi/index.html"
+        },
+        {
+            "icon": "https://m1.img.10010.com/resources/63E516FFDA114E0D31DEF646BE06F5E9/20220120/png/20220120171318.png",
+            "title": "预警短信提醒",
+            "url": "https://m1.img.10010.com/resources/63E516FFDA114E0D31DEF646BE06F5E9/20220120/png/20220120171318.png"
+        },
+        {
+            "icon": "https://m1.img.10010.com/resources/63E516FFDA114E0D31DEF646BE06F5E9/20220112/png/20220112145546.png",
+            "title": "号卡激活",
+            "url": "https://m.10010.com/jh?c=app_A"
+        },
+        {
+            "icon": "https://m1.img.10010.com/resources/63E516FFDA114E0D31DEF646BE06F5E9/20220112/png/20220112114739.png",
+            "title": "携号入网",
+            "url": "https://card.10010.com/queen/xhzw/xhzw.html?channel=99-0324-a42a-a4ro"
+        },
+        {
+            "icon": "https://m1.img.10010.com/resources/63E516FFDA114E0D31DEF646BE06F5E9/20220120/png/20220120163005.png",
+            "title": "办理副卡",
+            "url": "https://m.client.10010.com/mobileService/openPlatform/openPlatLineNew.htm?to_url=https://card.10010.com/terminal/secondaryCardCom?salesId=98X2103051447472194&channel=06-0324-af2g-aj8a"
+        },
+        {
+            "icon": "https://m1.img.10010.com/resources/63E516FFDA114E0D31DEF646BE06F5E9/20220329/png/20220329121949.png",
+            "title": "eSIM专区",
+            "url": "https://img.client.10010.com/esimzq/index.html"
+        },
+        {
+            "icon": "https://m1.img.10010.com/resources/63E516FFDA114E0D31DEF646BE06F5E9/20220120/png/20220120175021.png",
+            "title": "我的基本信息(旧)",
+            "url": "http://wap.10010.com/mobileService/operationservice/getUserinfo.htm"
+        },
+        {
+            "icon": "https://m1.img.10010.com/resources/63E516FFDA114E0D31DEF646BE06F5E9/20220120/png/20220120174053.png",
+            "title": "业务办理记录(旧)",
+            "url": "https://m.client.10010.com/mobileService/operationservice/queryHistoryBusinessBL.htm"
+        },
+        {
+            "icon": "https://m1.img.10010.com/resources/63E516FFDA114E0D31DEF646BE06F5E9/20220120/png/20220120174655.png",
+            "title": "实时话费(旧)",
+            "url": "http://wap.10010.com/mobileService/query/queryRealTimeFeeInfoNew.htm"
+        },
+        {
+            "icon": "https://m1.img.10010.com/resources/63E516FFDA114E0D31DEF646BE06F5E9/20220120/png/20220120175342.png",
+            "title": "余量查询(旧)",
+            "url": "http://wap.10010.com/mobileService/common/skip/queryLeavePackage.htm?navUrlCode=1184&activiChannel=wap"
+        },
+        {
+            "icon": "https://m1.img.10010.com/resources/63E516FFDA114E0D31DEF646BE06F5E9/20220120/png/20220120174151.png",
+            "title": "积分查询(旧)",
+            "url": "http://wap.10010.com/mobileService/points/queryPointFourg.htm?menuId=000200050005&mobile_c_from=query&navUrlCode=1072&activiChannel=wap"
+        },
+        {
+            "icon": "https://m1.img.10010.com/resources/63E516FFDA114E0D31DEF646BE06F5E9/20220120/png/20220120180811.png",
+            "title": "在线客服",
+            "url": "https://m.client.10010.com/servicebusiness/onlineService/jump?flag=1"
+        },
+        {
+            "icon": "https://m1.img.10010.com/resources/63E516FFDA114E0D31DEF646BE06F5E9/20220120/png/20220120181524.png",
+            "title": "我要投诉",
+            "url": "https://m.client.10010.com/mobileService/openPlatform/openPlatLineNew.htm?to_url=https://cc.10010.com/cs/wechat/userpage/login/2030510-CHP-"
+        }
+    ]
+}
