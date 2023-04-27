@@ -1,6 +1,6 @@
 {
     // 推送版本大于该参数就更新
-    "time": 1681630460035,
+    "time": 1681630460036,
     // 用户可读时间，无意义参数
     "date": "2023-04-16",
     // 允许推送更新
@@ -22,45 +22,45 @@
          * "/storage/emulated/0/Download/xxx.jpg",
          * "http://xxx.xxx.com/xxxx.jpg"
          */
-        "https://raw.githubusercontent.com/unexpecteds/Other/main/TrafficStats/theme/black.jpg"
+        "https://cdn.jsdelivr.net/gh/unexpecteds/Other@master/TrafficStats/theme/black.jpg"
     ],
     "blue": [
-        "https://raw.githubusercontent.com/unexpecteds/Other/main/TrafficStats/theme/blue.png"
+        "https://cdn.jsdelivr.net/gh/unexpecteds/Other@master/TrafficStats/theme/blue.png"
     ],
     "blue_light": [
-        "https://raw.githubusercontent.com/unexpecteds/Other/main/TrafficStats/theme/blue_light.jpg"
+        "https://cdn.jsdelivr.net/gh/unexpecteds/Other@master/TrafficStats/theme/blue_light.jpg"
     ],
     "brown": [
-        "https://raw.githubusercontent.com/unexpecteds/Other/main/TrafficStats/theme/brown.webp"
+        "https://cdn.jsdelivr.net/gh/unexpecteds/Other@master/TrafficStats/theme/brown.webp"
     ],
     "cyan": [
-        "https://raw.githubusercontent.com/unexpecteds/Other/main/TrafficStats/theme/cyan.jpg"
+        "https://cdn.jsdelivr.net/gh/unexpecteds/Other@master/TrafficStats/theme/cyan.jpg"
     ],
     "indigo": [
-        "https://raw.githubusercontent.com/unexpecteds/Other/main/TrafficStats/theme/indigo.jpg"
+        "https://cdn.jsdelivr.net/gh/unexpecteds/Other@master/TrafficStats/theme/indigo.jpg"
     ],
     "orange": [
-        "https://raw.githubusercontent.com/unexpecteds/Other/main/TrafficStats/theme/orange.jpg"
+        "https://cdn.jsdelivr.net/gh/unexpecteds/Other@master/TrafficStats/theme/orange.jpg"
     ],
     "orange_deep": [
-        "https://raw.githubusercontent.com/unexpecteds/Other/main/TrafficStats/theme/orange_deep.jpg"
+        "https://cdn.jsdelivr.net/gh/unexpecteds/Other@master/TrafficStats/theme/orange_deep.jpg"
     ],
     "pink": [
-        "https://raw.githubusercontent.com/unexpecteds/Other/main/TrafficStats/theme/pink.webp"
+        "https://cdn.jsdelivr.net/gh/unexpecteds/Other@master/TrafficStats/theme/pink.webp"
     ],
     "purple": [
-        "https://raw.githubusercontent.com/unexpecteds/Other/main/TrafficStats/theme/purple.jpg"
+        "https://cdn.jsdelivr.net/gh/unexpecteds/Other@master/TrafficStats/theme/purple.jpg"
     ],
     "purple_deep": [
-        "https://raw.githubusercontent.com/unexpecteds/Other/main/TrafficStats/theme/purple_deep.png"
+        "https://cdn.jsdelivr.net/gh/unexpecteds/Other@master/TrafficStats/theme/purple_deep.png"
     ],
     "red": [
-        "https://raw.githubusercontent.com/unexpecteds/Other/main/TrafficStats/theme/red.png"
+        "https://cdn.jsdelivr.net/gh/unexpecteds/Other@master/TrafficStats/theme/red.png"
     ],
     "teal": [
-        "https://raw.githubusercontent.com/unexpecteds/Other/main/TrafficStats/theme/teal.png"
+        "https://cdn.jsdelivr.net/gh/unexpecteds/Other@master/TrafficStats/theme/teal.png"
     ],
     "white": [
-        "https://raw.githubusercontent.com/unexpecteds/Other/main/TrafficStats/theme/white.jpg"
+        "https://cdn.jsdelivr.net/gh/unexpecteds/Other@master/TrafficStats/theme/white.jpg"
     ]
 }
