@@ -1,8 +1,8 @@
 --[[
-  author : 星璃
-  channel: https://t.me/FantasyCity
-  time   : 2023-06-09
-  desc   : 百度直连，无任何干扰
+  author: 星璃
+  email : Re_SwordArtOnline@outlook.com
+  time  : 2023-06-09
+  desc  : 百度直连，无任何干扰
 ]]--
 
 local http = require 'http'
