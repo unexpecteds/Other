@@ -38,10 +38,10 @@ local kHttpHeaderRecived = 2
 local function createVerify(address)
   local index = 0
   for i = 1, #address do
-    index = index * 1318293 + string.byte(address, i)
+    index = (index * 1318293 & 0x7FFFFFFF) + string.byte(address, i)
   end
   if index < 0 then
-    index = bit32.band(index, 0x7FFFFFFF)
+    index = index & 0x7FFFFFFF
   end
   -- ctx_debug('Host: ' .. address .. 'X-T5-Auth: ' ..index)
   local verify = 'X-T5-Auth: ' .. index .. '\r\n'
