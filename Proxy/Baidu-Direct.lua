@@ -35,7 +35,7 @@ local flags = {}
 local kHttpHeaderSent = 1
 local kHttpHeaderRecived = 2
 
-function createVerify(address)
+local function createVerify(address)
   local index = 0
   for i = 1, #address do
     index = index * 1318293 + string.byte(address, i)
