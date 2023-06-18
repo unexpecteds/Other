@@ -1,8 +1,9 @@
 --[[
-  author: 星璃
-  email : StarColoredGlaze@outlook.com
-  time  : 2023-06-18
-  desc  : 百度直连，无任何干扰
+  author : 星璃
+  email  : StarColoredGlaze@outlook.com
+  channel: https://t.me/ReFantasyCity
+  time   : 2023-06-19
+  desc   : 百度直连，动态生成验证，无任何干扰
 ]]--
 
 local http = require 'http'

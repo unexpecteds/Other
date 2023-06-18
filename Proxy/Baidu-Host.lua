@@ -1,8 +1,9 @@
 --[[
   author : 星璃
-  channel: https://t.me/FantasyCity
+  email  : StarColoredGlaze@outlook.com
+  channel: https://t.me/ReFantasyCity
   time   : 2023-06-09
-  desc   : 百度直连，无任何干扰
+  desc   : 百度直连固定 Host 过验证
 ]]--
 
 local http = require 'http'
