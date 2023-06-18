@@ -1,7 +1,7 @@
 --[[
   author: 星璃
-  email : Re_SwordArtOnline@outlook.com
-  time  : 2023-06-09
+  email : StarColoredGlaze@outlook.com
+  time  : 2023-06-18
   desc  : 百度直连，无任何干扰
 ]]--
 
