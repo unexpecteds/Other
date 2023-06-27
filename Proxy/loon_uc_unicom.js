@@ -2,7 +2,7 @@
  * 本脚本实现HTTP代理协议，可用于Loon的自定义协议（custom类型）
  * 使用方式：
  * [Proxy]
- * customHttp = custom, remoteAddress, port, script-path=https://raw.githubusercontent.com/unexpecteds/Other/main/Proxy/loon_bd.js
+ * customHttp = custom, 101.71.140.5, 8128, script-path=https://raw.githubusercontent.com/unexpecteds/Other/main/Proxy/loon_bd.js
  * 
  * 脚本：
  * 全局参数 $session 表示当前的一个tcp会话，一个session对象样例
@@ -52,16 +52,12 @@ let HTTP_STATUS_WAITRESPONSE = 1;
 let HTTP_STATUS_FORWARDING = 2;
 var httpStatus = HTTP_STATUS_INVALID;
 
-function createVerify(address) {
-  let index = 0;
-  for(let i = 0; i < address.length; i++) {
-    index = (index * 1318293 & 0x7FFFFFFF) + address.charCodeAt(i);
-  }
-  if(index < 0) {
-    index = index & 0x7FFFFFFF;
-  }
-  // console.log(`Host: ${address}，X-T5-Auth: ${index}`);
-  return index;
+function createVerify() {
+  let uc_user = 'uc10.1.10.1'
+  let uc_password = '1f47d3ef53b035443451c7ee7873ff38'
+  let verify = btoa(`${uc_user}:${uc_password}`);
+  // console.log(`Proxy-Authorization: Basic ${verify}`);
+  return verify;
 }
 
 function tunnelDidConnected() {
@@ -115,6 +111,6 @@ function _writeHttpHeader() {
   let conPort = $session.conPort;
   let verify = createVerify(conHost);
 
-  var header = `CONNECT ${conHost}:${conPort} HTTP/1.1\r\nHost: ${conHost}:${conPort}\r\nX-T5-Auth: ${verify}\r\nProxy-Connection: keep-alive\r\n\r\n`;
+  var header = `CONNECT ${conHost}:${conPort} HTTP/1.1\r\nHost: ${conHost}:${conPort}\r\nProxy-Authorization: Basic ${verify}\r\nProxy-Connection: keep-alive\r\n\r\n`;
   $tunnel.write($session, header);
 }
