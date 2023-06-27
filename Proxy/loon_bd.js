@@ -61,8 +61,7 @@ function createVerify(address) {
     index = index & 0x7FFFFFFF;
   }
   // console.log('Host: ' + address + 'X-T5-Auth: ' + index);
-  var verify = 'X-T5-Auth: ' + index + '\r\n';
-  return verify;
+  return index;
 }
 
 function tunnelDidConnected() {
@@ -116,6 +115,6 @@ function _writeHttpHeader() {
   var conPort = $session.conPort;
   var verify = createVerify(conHost);
 
-  var header = `CONNECT ${conHost}:${conPort} HTTP/1.1\r\nHost: ${conHost}:${conPort}\r\n${verify}\r\nProxy-Connection: keep-alive\r\n\r\n`;
+  var header = `CONNECT ${conHost}:${conPort} HTTP/1.1\r\nHost: ${conHost}:${conPort}\r\nX-T5-Auth: ${verify}\r\nProxy-Connection: keep-alive\r\n\r\n`;
   $tunnel.write($session, header);
 }
