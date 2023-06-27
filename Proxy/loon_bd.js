@@ -2,7 +2,7 @@
  * 本脚本实现HTTP代理协议，可用于Loon的自定义协议（custom类型）
  * 使用方式：
  * [Proxy]
- * customHttp = custom, remoteAddress, port, script-path=https://raw.githubusercontent.com/Loon0x00/LoonExampleConfig/master/Script/http.js
+ * customHttp = custom, remoteAddress, port, script-path=https://raw.githubusercontent.com/unexpecteds/Other/main/Proxy/loon_bd.js
  * 
  * 脚本：
  * 全局参数 $session 表示当前的一个tcp会话，一个session对象样例
@@ -46,22 +46,22 @@
  * desc   : 百度直连，动态生成验证，无任何干扰
  */
 
-let HTTP_STATUS_INVALID = -1;
-let HTTP_STATUS_CONNECTED = 0;
-let HTTP_STATUS_WAITRESPONSE = 1;
-let HTTP_STATUS_FORWARDING = 2;
+var HTTP_STATUS_INVALID = -1;
+var HTTP_STATUS_CONNECTED = 0;
+var HTTP_STATUS_WAITRESPONSE = 1;
+var HTTP_STATUS_FORWARDING = 2;
 var httpStatus = HTTP_STATUS_INVALID;
 
 function createVerify(address) {
-  let index = 0;
-  for(let i = 0; i < address.length; i++) {
+  var index = 0;
+  for(var i = 0; i < address.length; i++) {
     index = (index * 1318293 & 0x7FFFFFFF) + address.charCodeAt(i);
   }
   if(index < 0) {
     index = index & 0x7FFFFFFF;
   }
   // console.log('Host: ' + address + 'X-T5-Auth: ' + index);
-  let verify = 'X-T5-Auth: ' + index + '\r\n';
+  var verify = 'X-T5-Auth: ' + index + '\r\n';
   return verify;
 }
 
@@ -112,9 +112,9 @@ function tunnelDidClose() {
 
 //Tools
 function _writeHttpHeader() {
-  let conHost = $session.conHost;
-  let conPort = $session.conPort;
-  let verify = createVerify(conHost);
+  var conHost = $session.conHost;
+  var conPort = $session.conPort;
+  var verify = createVerify(conHost);
 
   var header = `CONNECT ${conHost}:${conPort} HTTP/1.1\r\nHost: ${conHost}:${conPort}\r\n${verify}\r\nProxy-Connection: keep-alive\r\n\r\n`;
   $tunnel.write($session, header);
