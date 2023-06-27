@@ -43,7 +43,7 @@
  * email  : StarColoredGlaze@outlook.com
  * channel: https://t.me/ReFantasyCity
  * time   : 2023-06-27
- * desc   : 百度直连，动态生成验证，无任何干扰
+ * desc   : UC 直连(联通)，动态生成验证，每月需要更新password
  */
 
 let HTTP_STATUS_INVALID = -1;
@@ -53,9 +53,9 @@ let HTTP_STATUS_FORWARDING = 2;
 var httpStatus = HTTP_STATUS_INVALID;
 
 function createVerify() {
-  let uc_user = 'uc10.1.10.1'
-  let uc_password = '1f47d3ef53b035443451c7ee7873ff38'
-  let verify = btoa(`${uc_user}:${uc_password}`);
+  let user = 'uc10.1.10.1';
+  let password = '1f47d3ef53b035443451c7ee7873ff38';
+  let verify = btoa(`${user}:${password}`);
   // console.log(`Proxy-Authorization: Basic ${verify}`);
   return verify;
 }
@@ -109,7 +109,7 @@ function tunnelDidClose() {
 function _writeHttpHeader() {
   let conHost = $session.conHost;
   let conPort = $session.conPort;
-  let verify = createVerify(conHost);
+  let verify = createVerify();
 
   var header = `CONNECT ${conHost}:${conPort} HTTP/1.1\r\nHost: ${conHost}:${conPort}\r\nProxy-Authorization: Basic ${verify}\r\nProxy-Connection: keep-alive\r\n\r\n`;
   $tunnel.write($session, header);
