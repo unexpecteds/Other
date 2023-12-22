@@ -50,10 +50,17 @@ payload:
   - AND,((IP-CIDR,183.232.48.154/32,no-resolve),(DST-PORT,476))
   - AND,((IP-CIDR,221.224.190.25/32,no-resolve),(DST-PORT,457))
   - AND,((DOMAIN,sdkconf.msstatic.com),(DST-PORT,443))
-  - AND,((DOMAIN,xyajs.data.p2cdn.com),(DST-PORT,80))
-  - AND,((DOMAIN,sdk2xyajs.data.p2cdn.com),(DST-PORT,80))
+  - AND,((DOMAIN-SUFFIX,data.p2cdn.com),(DST-PORT,80))
 
   # 快手
+  - AND,((IP-CIDR,36.99.122.0/24,no-resolve),(DST-PORT,80))
+  - AND,((IP-CIDR,58.223.164.154/32,no-resolve),(DST-PORT,80))
+  - AND,((IP-CIDR,61.160.6.0/24,no-resolve),(DST-PORT,80))
   - AND,((IP-CIDR,103.102.200.14/32,no-resolve),(DST-PORT,80))
-  - AND,((IP-CIDR,117.68.0.0/32,no-resolve),(DST-PORT,80))
+  - AND,((IP-CIDR,117.68.1.0/24,no-resolve),(DST-PORT,80))
+  - AND,((IP-CIDR,117.68.11.0/24,no-resolve),(DST-PORT,80))
+  - AND,((IP-CIDR,182.40.98.85/32,no-resolve),(DST-PORT,80))
   - AND,((DOMAIN,httpdns.upyun.com),(DST-PORT,80))
+
+  # 皮皮虾
+  - AND,((DOMAIN-SUFFIX,wtlogin.qq.com),(DST-PORT,443))
