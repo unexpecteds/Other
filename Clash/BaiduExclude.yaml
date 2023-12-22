@@ -1,4 +1,4 @@
-# NAME: BaiDu proxy exclude rules
+# NAME: Baidu proxy exclude rules
 # AUTHOR: unexpecteds
 # REPO: https://github.com/unexpecteds/Other/Clash
 # UPDATED: 2023-12-22 23.20
@@ -42,7 +42,18 @@ payload:
   - AND,((IP-CIDR,120.52.148.150/32,no-resolve),(DST-PORT,443))
 
   # 虎牙
-  - AND,((IP-CIDR,101.226.211.106/32,no-resolve),(DST-PORT,80))
-  - AND,((IP-CIDR,120.233.147.213/32,no-resolve),(DST-PORT,498))
+  - AND,((IP-CIDR,36.155.161.46/32,no-resolve),(DST-PORT,458))
+  - AND,((IP-CIDR,58.144.173.79/32,no-resolve),(DST-PORT,476))
+  - AND,((IP-CIDR,58.144.173.88/32,no-resolve),(DST-PORT,461))
+  - AND,((IP-CIDR,120.233.147.213/32,no-resolve),AND((DST-PORT,493),(DST-PORT,498)))
+  - AND,((IP-CIDR,123.138.122.89/32,no-resolve),(DST-PORT,453))
+  - AND,((IP-CIDR,183.232.48.154/32,no-resolve),(DST-PORT,476))
   - AND,((IP-CIDR,221.224.190.25/32,no-resolve),(DST-PORT,457))
   - AND,((DOMAIN,sdkconf.msstatic.com),(DST-PORT,443))
+  - AND,((DOMAIN,xyajs.data.p2cdn.com),(DST-PORT,80))
+  - AND,((DOMAIN,sdk2xyajs.data.p2cdn.com),(DST-PORT,80))
+
+  # 快手
+  - AND,((IP-CIDR,103.102.200.14/32,no-resolve),(DST-PORT,80))
+  - AND,((IP-CIDR,117.68.0.0/32,no-resolve),(DST-PORT,80))
+  - AND,((DOMAIN,httpdns.upyun.com),(DST-PORT,80))
