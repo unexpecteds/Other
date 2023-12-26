@@ -1,0 +1,37 @@
+baidu: &baidu
+  type: http
+  port: 443
+  udp: false
+  skip-cert-verify: true
+  headers:
+    Host: "h2tcbox.baidu.com:443"
+    X-T5-Auth: "1966547082"
+
+proxies:
+  - name: "🐻 苏州"
+    server: 157.0.148.53
+    <<: *baidu
+
+  - name: "🐻 广州-1"
+    server: 163.177.17.189
+    <<: *baidu
+
+  - name: "🐻 广州-2"
+    server: 163.177.17.6
+    <<: *baidu
+
+  - name: "🐻 河北-1"
+    server: 110.242.70.68
+    <<: *baidu
+
+  - name: "🐻 河北-2"
+    server: 110.242.70.69
+    <<: *baidu
+
+  - name: "🐻 南京"
+    server: 153.3.237.117
+    <<: *baidu
+
+  - name: "🐻 Domain"
+    server: cloudnproxy.baidu.com
+    <<: *baidu
