@@ -5,6 +5,7 @@
 payload:
   # QQ
   - AND,((DOMAIN,btrace.qq.com),(DST-PORT,80))
+  - AND,((DOMAIN-SUFFIX,wtlogin.qq.com),(DST-PORT,443))
   # QQ空间
   - AND,((DOMAIN,wspeed.qq.com),(DST-PORT,443))
 
@@ -62,5 +63,5 @@ payload:
   - AND,((IP-CIDR,182.40.98.85/32,no-resolve),(DST-PORT,80))
   - AND,((DOMAIN,httpdns.upyun.com),(DST-PORT,80))
 
-  # 皮皮虾
-  - AND,((DOMAIN-SUFFIX,wtlogin.qq.com),(DST-PORT,443))
+  # AppCenter
+  - AND,((DOMAIN,in.appcenter.ms),(DST-PORT,443))
