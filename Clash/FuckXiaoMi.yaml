@@ -14,4 +14,3 @@ payload:
   - DOMAIN,api.installer.xiaomi.com,REJECT
   - DOMAIN,api.sec.miui.com,REJECT
   - DOMAIN,auth.be.sec.miui.com,REJECT
-  - DOMAIN,updateinfo.market.xiaomi.com,REJECT
