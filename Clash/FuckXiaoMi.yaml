@@ -1,15 +1,8 @@
 # NAME: FuckXiaoMi
 # AUTHOR: unexpecteds
 # REPO: https://github.com/unexpecteds/Other/Clash
-# UPDATED: 2023-12-26 21.03
+# UPDATED: 2024-01-09 21.27
 payload:
-  # 电子邮件 - 小米
-  - IP-CIDR,124.236.26.162/32,REJECT,no-resolve
-  - IP-CIDR,124.236.26.165/32,REJECT,no-resolve
-  - DOMAIN-SUFFIX,ksord.com,REJECT
-  - IP-CIDR,110.43.89.32/32,REJECT,no-resolve
-  - DOMAIN-SUFFIX,ksosoft.com,REJECT
-
   # 应用包管理组件 - 小米
   - DOMAIN,api.installer.xiaomi.com,REJECT
   - DOMAIN,api.sec.miui.com,REJECT
