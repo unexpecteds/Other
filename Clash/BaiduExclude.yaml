@@ -5,7 +5,7 @@
 payload:
   # QQ
   - AND,((DOMAIN,appservice.qq.com),(DST-PORT,443))
-  - AND,((DOMAIN,btrace.qq.com),(DST-PORT,80))
+  - DOMAIN,btrace.qq.com
   - AND,((DOMAIN,qt.qq.com),(DST-PORT,80))
   - AND,((DOMAIN-SUFFIX,wtlogin.qq.com),(DST-PORT,443))
   # QQ空间
@@ -14,6 +14,8 @@ payload:
   # 游戏中心
   - AND,((DOMAIN,report.huatuo.qq.com),(DST-PORT,443))
   - AND,((DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net),(DST-PORT,51762))
+  # QQ音乐
+  - AND,((DOMAIN,hllb-hl.mig.tencent-cloud.net),(DST-PORT,18080))
 
   # 微信
   - AND,((DOMAIN,apd-pcdnwxstat.teg.tencent-cloud.net),(DST-PORT,53861))
@@ -77,6 +79,9 @@ payload:
   # UC浏览器
   - AND,((DOMAIN,client.tv.uc.cn),(DST-PORT,80))
   - AND,((DOMAIN,safe.ucweb.com),(DST-PORT,443))
+  
+  # Soul
+  - AND,((DOMAIN,winterfell.soulapp.cn),(DST-PORT,443))
   
   # AppCenter
   - AND,((DOMAIN,in.appcenter.ms),(DST-PORT,443))
