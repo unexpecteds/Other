@@ -1,7 +1,7 @@
 # NAME: Baidu proxy exclude rules
 # AUTHOR: unexpecteds
 # REPO: https://github.com/unexpecteds/Other/Clash
-# UPDATED: 2024-01-28 13:41
+# UPDATED: 2024-02-05 15:26
 payload:
   # QQ
   - AND,((DOMAIN,appservice.qq.com),(DST-PORT,443))
@@ -84,13 +84,18 @@ payload:
   # Soul
   - AND,((DOMAIN,winterfell.soulapp.cn),(DST-PORT,443))
   
+  # 网易云音乐
+  - AND,((IP-CIDR,115.236.121.195/32,no-resolve),(DST-PORT,443))
+
   # AppCenter
   - AND,((DOMAIN,in.appcenter.ms),(DST-PORT,443))
   
   # Microsoft
   - AND,((DOMAIN,login.microsoftonline.com),(DST-PORT,443))
 
-
   # 网页
   - AND,((DOMAIN,v6.ip.zxinc.org),(DST-PORT,443))
   - AND,((DOMAIN,6.ipw.cn),(DST-PORT,443))
+  
+  # 未知
+  - AND,((IP-CIDR,101.71.145.195/32,no-resolve),(DST-PORT,443))
