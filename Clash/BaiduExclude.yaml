@@ -96,6 +96,12 @@ payload:
   # 网页
   - AND,((DOMAIN,v6.ip.zxinc.org),(DST-PORT,443))
   - AND,((DOMAIN,6.ipw.cn),(DST-PORT,443))
+  - AND,((DOMAIN-SUFFIX,ip138.com),(DST-PORT,443))
+
   
   # 未知
   - AND,((IP-CIDR,101.71.145.195/32,no-resolve),(DST-PORT,443))
+  - AND,((IP-CIDR,120.198.203.156/32,no-resolve),(DST-PORT,80))
+  - AND,((DOMAIN,hub5p.sandai.net),(DST-PORT,80))
+  - AND,((DOMAIN,idx.v6.shub.sandai.net),(DST-PORT,80))
+  - AND,((DOMAIN,hub5pr.v6.phub.sandai.net),(DST-PORT,80))
