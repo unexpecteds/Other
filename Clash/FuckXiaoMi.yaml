@@ -1,9 +1,11 @@
 # NAME: FuckXiaoMi
 # AUTHOR: unexpecteds
 # REPO: https://github.com/unexpecteds/Other/Clash
-# UPDATED: 2024-01-09 21.27
+# UPDATED: 2024-02-17 03.53
 payload:
   # 应用包管理组件 - 小米
   - DOMAIN,api.installer.xiaomi.com,REJECT
   - DOMAIN,api.sec.miui.com,REJECT
   - DOMAIN,auth.be.sec.miui.com,REJECT
+  
+  - DOMAIN,logupdate.avlyun.sec.miui.com

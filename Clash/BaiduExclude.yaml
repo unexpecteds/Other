@@ -1,7 +1,7 @@
 # NAME: Baidu proxy exclude rules
 # AUTHOR: unexpecteds
 # REPO: https://github.com/unexpecteds/Other/Clash
-# UPDATED: 2024-02-05 15:26
+# UPDATED: 2024-02-17 03.53
 payload:
   # QQ
   - AND,((DOMAIN,appservice.qq.com),(DST-PORT,443))
@@ -98,6 +98,11 @@ payload:
   - AND,((DOMAIN,6.ipw.cn),(DST-PORT,443))
   - AND,((DOMAIN-SUFFIX,ip138.com),(DST-PORT,443))
 
+  # tracker
+  - DOMAIN,tracker.mlsub.net
+  - DOMAIN,www.chouchou.club
+  - DOMAIN,tracker3.itzmx.com
+  - IP-CIDR,61.137.178.129/32,no-resolve
   
   # 未知
   - AND,((IP-CIDR,101.71.145.195/32,no-resolve),(DST-PORT,443))
