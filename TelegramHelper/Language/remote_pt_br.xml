@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_disclaimer">Bem-vindo ao 1TH Módulo Pro. As configurações do módulo podem ser encontradas na página principal -> Barra lateral -> 1TH+ (configurações do Telegram abaixo).\n\n**⚠️Nota:** Todos os recursos recém-adicionados neste módulo são pagos. Se você tiver alguma objeção, desinstale este módulo.\n\n**Isenção de responsabilidade:**\n- O módulo 1TH+ é apenas para fins de aprendizagem e comunicação. Exclua-o dentro de 24 horas após o download, e os usuários deverão assumir total responsabilidade por quaisquer riscos associados ao uso deste módulo.\n\n- O módulo 1TH+ pode modificar o comportamento do aplicativo Telegram. Os usuários devem revisar cuidadosamente as operações do módulo e tomar suas próprias decisões em relação ao seu uso.\n- O uso do 1TH+ pode causar instabilidade, travamentos e perda de dados no aplicativo Telegram. O autor não é responsável por quaisquer problemas que possam surgir com o uso deste módulo.\n- O desenvolvedor reserva-se o direito de atualizar, modificar, suspender ou encerrar o módulo 1TH+. Os usuários devem verificar de forma independente a segurança e a estabilidade da versão que estão usando.\n- O autor não se responsabiliza por quaisquer problemas que possam surgir com a utilização do módulo 1TH+, sendo que todas as consequências serão suportadas pelos próprios utilizadores.\n- O autor não fornece qualquer forma de suporte técnico ou soluções para quaisquer problemas que possam surgir com a utilização do módulo 1TH+.\n\nLeia atentamente o aviso acima antes de usar o módulo 1TH+ e avalie os riscos e benefícios por conta própria. Se você discordar de alguma parte dele, evite usá-lo. Ao usar o módulo 1TH+, você expressa sua total aceitação deste aviso legal.</string>
+    <string name="app_disclaimer">Bem-vindo ao 1TH+ Módulo Pro. As configurações do módulo podem ser encontradas na página principal -> Barra lateral -> 1TH+ (configurações do Telegram abaixo).\n\n**⚠️Nota:** Todos os recursos recém-adicionados neste módulo são pagos. Se você tiver alguma objeção, desinstale este módulo.\n\n**Isenção de responsabilidade:**\n- O módulo 1TH+ é apenas para fins de aprendizagem e comunicação. Exclua-o dentro de 24 horas após o download, e os usuários deverão assumir total responsabilidade por quaisquer riscos associados ao uso deste módulo.\n\n- O módulo 1TH+ pode modificar o comportamento do aplicativo Telegram. Os usuários devem revisar cuidadosamente as operações do módulo e tomar suas próprias decisões em relação ao seu uso.\n- O uso do 1TH+ pode causar instabilidade, travamentos e perda de dados no aplicativo Telegram. O autor não é responsável por quaisquer problemas que possam surgir com o uso deste módulo.\n- O desenvolvedor reserva-se o direito de atualizar, modificar, suspender ou encerrar o módulo 1TH+. Os usuários devem verificar de forma independente a segurança e a estabilidade da versão que estão usando.\n- O autor não se responsabiliza por quaisquer problemas que possam surgir com a utilização do módulo 1TH+, sendo que todas as consequências serão suportadas pelos próprios utilizadores.\n- O autor não fornece qualquer forma de suporte técnico ou soluções para quaisquer problemas que possam surgir com a utilização do módulo 1TH+.\n\nLeia atentamente o aviso acima antes de usar o módulo 1TH+ e avalie os riscos e benefícios por conta própria. Se você discordar de alguma parte dele, evite usá-lo. Ao usar o módulo 1TH+, você expressa sua total aceitação deste aviso legal.</string>
     <string name="xposeddescription">Apenas as versões oficiais 10.6.4+ são suportadas</string>
     <string name="app_error">o software que você está usando atualmente não suporta este módulo</string>
     <string name="app_error_class_not_found">Classe de inicialização não encontrada</string>
@@ -119,7 +119,7 @@
     <string name="ShieldSponsoredMessages">Bloquear mensagens patrocinadas</string>
     <string name="DisableAdTracking">Desativar rastreamento de anúncios</string>
     <string name="DisableAdTrackingSummary">Se você clicar em um anúncio fornecido pelo Telegram, eles o rastrearão e poderão usá-lo como base para personalizar o anúncio. Esta função serve para desativá-lo.</string>
-    <string name="BlockRecallMessage">Mensagens anti-revok</string>
+    <string name="BlockRecallMessage">Mensagens anti-delete</string>
     <string name="BlockRecallMessageSummary">Somente mensagens marcadas como lidas são suportadas</string>
     <string name="DisableStatusUpdate">Desativar status on-line</string>
     <string name="DisableStatusUpdateSummary">Fique sempre off-line, a menos que envie uma mensagem</string>
@@ -166,8 +166,8 @@
     <string name="CommandDeleteAllGroupMyAllMessageSummary">Excluir todas as minhas mensagens de todos os grupos</string>
     <string name="CommandSetMessageSummary">Defina a mensagem do Ta</string>
     
-    <string name="OpenLinkedChannel">Abrir canal associado</string>
-    <string name="OpenLinkedChannelSummary">Adicionar a opção "Associar canal" ao menu da barra de título da página de perfil do grupo (se disponível)</string>
+    <string name="OpenLinkedChannel">Abrir o canal associado</string>
+    <string name="OpenLinkedChannelSummary">Incluir a opção \'Associar canal\' no menu da barra de título da página de perfil do grupo (se estiver disponível).</string>
     
     <string name="ProhibitedWords">Palavras Proibidas</string>
     <string name="SendMessageAction">Enviar ação de mensagem</string>
@@ -326,8 +326,8 @@
     <string name="AreYouSureAddFolderDialogToHistory">Tem certeza de que deseja adicionar a conversa selecionada no grupo **%1$s** ao histórico?</string>
     <string name="DeleteHistoryWhenBackFromTitleBar">Exclua o histórico ao retornar da barra de título</string>
     <string name="DeleteHistoryWhenBackFromTitleBarSummary">Usar o botão Voltar da barra de título exclui o histórico salvo da conversa atual</string>
-    <string name="CustomTitleBackIcon">Ícone de retorno usando estilo personalizado</string>
-    <string name="AddhistoryRecordToDialogList">Adicione "histórico" à lista de conversas</string>
+    <string name="CustomTitleBackIcon">Aplicar um estilo personalizado para exibir o ícone</string>
+    <string name="AddhistoryRecordToDialogList">Adicionar "Histórico" à lista de conversas</string>
     <string name="AddhistoryRecordToDialogListSummary">Você precisa se inscrever primeiro @HelperHistoryRecord Este recurso só pode ser usado por canais</string>
     
     <string name="StatusStatistics">Estatísticas de status</string>
@@ -343,7 +343,7 @@
     <string name="StickersTotal">Adesivos (quantidade total)</string>
     
     <string name="DeveloperOptions">Opções de desenvolvedor</string>
-    <string name="Other">Outro</string>
+    <string name="Other">outro</string>
     <string name="DeleteAccount">Excluir conta do Telegram</string>
     <string name="DisableLinkPreviewByDefault">Desativar visualização de link por padrão</string>
     <string name="DisableLinkPreviewByDefaultNotice">Desative a solicitação de visualização do link durante a entrada por padrão para evitar que o servidor saiba que o link é compartilhado através do Telegram.</string>
