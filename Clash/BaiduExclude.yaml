@@ -1,8 +1,12 @@
 # NAME: Baidu proxy exclude rules
 # AUTHOR: unexpecteds
 # REPO: https://github.com/unexpecteds/Other/Clash
-# UPDATED: 2024-03-18 0:05
+# UPDATED: 2024-04-03 03:27
 payload:
+  # 百度地图
+  - AND,((DOMAIN,low-frequency-vertical-industry.bj.bcebos.com),(DST-PORT,443))
+  - AND,((DOMAIN,map-mobile-resource.su.bcebos.com),(DST-PORT,443))
+
   # QQ
   - AND,((DOMAIN,appservice.qq.com),(DST-PORT,443))
   - DOMAIN,btrace.qq.com
