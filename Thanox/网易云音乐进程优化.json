@@ -1,0 +1,17 @@
+[
+    {
+        "name": "网易云音乐进程优化",
+        "description": "只保留音频播放",
+        "priority": -1,
+        "delay": 3000,
+        "condition": "frontPkgChanged == true && from == \"com.netease.cloudmusic\"",
+        "actions": [
+            "su.exe(\"ps -ef|grep com.netease.cloudmusic:|grep -v :play|grep -v grep|awk '{print $2}'|xargs kill -9\")",
+            "su.exe(\"am stopservice -n com.netease.cloudmusic/com.netease.cloudmusic.network.deteck.DetectService\")",
+            "su.exe(\"com.netease.cloudmusic/com.netease.cloudmusic.singroom.room.SingRoomService\")",
+            "su.exe(\"am stopservice -n com.netease.cloudmusic/com.netease.cloudmusic.service.PushService\")",
+            "su.exe(\"am stopservice -n com.netease.cloudmusic/com.netease.cloudmusic.music.biz.localmusic.service.LocalMusicMatchService\")",
+            "su.exe(\"ps -ef|grep com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:|grep -v grep|awk '{print $2}'|xargs kill -9\")"
+        ]
+    }
+]
