@@ -71,7 +71,7 @@ payload:
   - AND,((IP-CIDR,36.155.161.46/32,no-resolve),(DST-PORT,458))
   - AND,((IP-CIDR,58.144.173.79/32,no-resolve),(DST-PORT,476))
   - AND,((IP-CIDR,58.144.173.88/32,no-resolve),(DST-PORT,461))
-  - AND,((IP-CIDR,120.233.147.213/32,no-resolve),AND((DST-PORT,493),(DST-PORT,498)))
+  - AND,((IP-CIDR,120.233.147.213/32,no-resolve),(DST-PORT,493/498))
   - AND,((IP-CIDR,123.138.122.89/32,no-resolve),(DST-PORT,453))
   - AND,((IP-CIDR,183.232.48.154/32,no-resolve),(DST-PORT,476))
   - AND,((IP-CIDR,221.224.190.25/32,no-resolve),(DST-PORT,457))
