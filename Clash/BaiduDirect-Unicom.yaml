@@ -1,8 +1,6 @@
 baidu: &baidu
   type: http
   port: 443
-  udp: false
-  skip-cert-verify: true
   headers:
     Host: "h2tcbox.baidu.com:443"
     X-T5-Auth: "1966547082"
