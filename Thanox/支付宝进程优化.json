@@ -4,10 +4,9 @@
         "description": "只保留收能量模块",
         "priority": -1,
         "delay": 6000,
-        "condition": "frontPkgChanged == true && from == \"com.eg.android.AlipayGphone\"",
+        "condition": "frontPkgChanged == true && from == 'com.eg.android.AlipayGphone'",
         "actions": [
-            "su.exe(\"ps -ef|grep com.eg.android.AlipayGphone:|grep -v :push|grep -v grep|awk '{print $2}'|xargs kill -9\")",
-            "su.exe(\"ps -ef|grep com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:|grep -v grep|awk '{print $2}'|xargs kill -9\")"
+            "if(thanos.activityManager.currentFrontApp != 'com.eg.android.AlipayGphone'){su.exe(\"ps -ef|grep com.eg.android.AlipayGphone:|grep -v :push|grep -v grep|awk '{print $2}'|xargs kill -9\");thanos.activityManager.killProcessByName('com.eg.android.AlipayGphone:push');thanos.activityManager.killProcessByName('com.eg.android.AlipayGphone:gpu_process');thanos.activityManager.killProcessByName('com.eg.android.AlipayGphone:sandboxed_privilege_process0');thanos.activityManager.killProcessByName('com.eg.android.AlipayGphone:sandboxed_privilege_process1');thanos.activityManager.killProcessByName('com.eg.android.AlipayGphone:tools');thanos.activityManager.killProcessByName('com.eg.android.AlipayGphone:lite1');thanos.activityManager.killProcessByName('com.eg.android.AlipayGphone:lite3');thanos.activityManager.killProcessByName('com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:1');}"
         ]
     }
 ]

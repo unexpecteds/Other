@@ -3,10 +3,10 @@
     "name": "QQ进程优化",
     "description": "优化保留双进程和通话",
     "priority": -1,
-    "condition": "frontPkgChanged == true && from == \"com.tencent.mobileqq\"",
+    "condition": "frontPkgChanged == true && from == 'com.tencent.mobileqq'",
+    "delay": 5000,
     "actions": [
-      "Thread.sleep(3000);",
-      "su.exe(\"ps -ef|grep com.tencent.mobileqq:|grep -v :MSF|grep -v :video|grep -v grep|awk '{print $2}'|xargs kill -9\")"
+      "if(thanos.activityManager.currentFrontApp != 'com.tencent.mobileqq'){su.exe(\"ps -ef|grep com.tencent.mobileqq:|grep -v :MSF|grep -v :video|grep -v grep|awk '{print $2}'|xargs kill -9\");}"
     ]
   }
 ]

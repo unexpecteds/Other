@@ -3,11 +3,10 @@
     "name": "微信进程优化",
     "description": "优化保留双进程，同时开启fcm推送",
     "priority": -2,
-    "condition": "frontPkgChanged == true && from == \"com.tencent.mm\"",
+    "condition": "frontPkgChanged == true && from == 'com.tencent.mm'",
+    "delay": 5000,
     "actions": [
-      "Thread.sleep(3000);",
-      "su.exe(\"ps -ef|grep com.tencent.mm:|grep -v :push|grep -v grep|awk '{print $2}'|xargs kill -9\")",
-      "su.exe(\"am stopservice -n com.tencent.mm/com.tencent.mm.ipcinvoker.wx_extension.service.PushProcessIPCService\")"
+      "if(thanos.activityManager.currentFrontApp != 'com.tencent.mm'){su.exe(\"ps -ef|grep com.tencent.mm:|grep -v :push|grep -v grep|awk '{print $2}'|xargs kill -9\");su.exe(\"am stopservice -n com.tencent.mm/com.tencent.mm.ipcinvoker.wx_extension.service.PushProcessIPCService\");}"
     ]
   }
 ]
