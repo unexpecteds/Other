@@ -658,7 +658,7 @@
         <item value="Рождество" />
         <item value="никто" />
     </string-array>
-    <string-array name="MessageTypes" num="31">
+    <string-array name="MessageTypes" num="30">
         <item value="все типы" />
         <item value="текст" />
         <item value="картина" />
@@ -691,12 +691,12 @@
         <item value="платные СМИ" />
         <item value="Отдайте звезды" />
     </string-array>
-    <string-array name="TranslateActionModes">
+    <string-array name="TranslateActionModes" num="3">
         <item value="Всплывающее диалоговое окно" />
         <item value="в сообщении" />
         <item value="внешнее приложение" />
     </string-array>
-    <string-array name="TranslateSourceTypes">
+    <string-array name="TranslateSourceTypes" num="8">
         <item value="перевод телеграммы" />
         <item value="Гугл переводчик" />
         <item value="яндекс перевод" />
