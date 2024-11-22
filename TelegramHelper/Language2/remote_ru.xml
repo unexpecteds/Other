@@ -658,7 +658,7 @@
         <item value="Рождество" />
         <item value="никто" />
     </string-array>
-    <string-array name="MessageTypes" num="30">
+    <string-array name="MessageTypes" num="31">
         <item value="все типы" />
         <item value="текст" />
         <item value="картина" />
