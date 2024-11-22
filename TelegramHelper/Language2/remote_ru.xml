@@ -646,65 +646,64 @@
     <string name="share">Делиться</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="update">Обновлять</string>
-    
-    <string-array name="DownloadSpeedBoostModes">
-        <item>закрытие</item>
-        <item>быстрый</item>
-        <item>Экстремальная скорость</item>
+    <string-array name="DownloadSpeedBoostModes" num="3">
+        <item value="закрытие" />
+        <item value="быстрый" />
+        <item value="Экстремальная скорость" />
     </string-array>
-    <string-array name="DrawerLayoutItemEventTypes">
-        <item>по умолчанию</item>
-        <item>День святого Валентина</item>
-        <item>Хэллоуин</item>
-        <item>Рождество</item>
-        <item>никто</item>
+    <string-array name="DrawerLayoutItemEventTypes" num="5">
+        <item value="по умолчанию" />
+        <item value="День святого Валентина" />
+        <item value="Хэллоуин" />
+        <item value="Рождество" />
+        <item value="никто" />
     </string-array>
-    <string-array name="MessageTypes">
-        <item>все типы</item>
-        <item>текст</item>
-        <item>картина</item>
-        <item>голос</item>
-        <item>видео</item>
-        <item>позиция</item>
-        <item>Видео</item>
-        <item>загрузка</item>
-        <item>гифка</item>
-        <item>документ</item>
-        <item>дата</item>
-        <item>Фотографии операций</item>
-        <item>Контактное лицо</item>
-        <item>наклейка</item>
-        <item>музыка</item>
-        <item>Динамические наклейки</item>
-        <item>сообщение о вызове</item>
-        <item>голосование</item>
-        <item>Премиум-подарок</item>
-        <item>Эмодзи</item>
-        <item>Развернуть предварительный просмотр мультимедиа</item>
-        <item>Предлагаемый аватар</item>
-        <item>Установить обои</item>
-        <item>история</item>
-        <item>упомянутая история</item>
-        <item>Подарок на пермиум канала</item>
-        <item>отдавать</item>
-        <item>Присоединился к каналу</item>
-        <item>Результаты розыгрыша</item>
-        <item>платные СМИ</item>
-        <item>Отдайте звезды</item>
+    <string-array name="MessageTypes" num="30">
+        <item value="все типы" />
+        <item value="текст" />
+        <item value="картина" />
+        <item value="голос" />
+        <item value="видео" />
+        <item value="позиция" />
+        <item value="Видео" />
+        <item value="загрузка" />
+        <item value="гифка" />
+        <item value="документ" />
+        <item value="дата" />
+        <item value="Фотографии операций" />
+        <item value="Контактное лицо" />
+        <item value="наклейка" />
+        <item value="музыка" />
+        <item value="Динамические наклейки" />
+        <item value="сообщение о вызове" />
+        <item value="голосование" />
+        <item value="Премиум-подарок" />
+        <item value="Эмодзи" />
+        <item value="Развернуть предварительный просмотр мультимедиа" />
+        <item value="Предлагаемый аватар" />
+        <item value="Установить обои" />
+        <item value="история" />
+        <item value="упомянутая история" />
+        <item value="Подарок на пермиум канала" />
+        <item value="отдавать" />
+        <item value="Присоединился к каналу" />
+        <item value="Результаты розыгрыша" />
+        <item value="платные СМИ" />
+        <item value="Отдайте звезды" />
     </string-array>
     <string-array name="TranslateActionModes">
-        <item>Всплывающее диалоговое окно</item>
-        <item>в сообщении</item>
-        <item>внешнее приложение</item>
+        <item value="Всплывающее диалоговое окно" />
+        <item value="в сообщении" />
+        <item value="внешнее приложение" />
     </string-array>
     <string-array name="TranslateSourceTypes">
-        <item>перевод телеграммы</item>
-        <item>Гугл переводчик</item>
-        <item>яндекс перевод</item>
-        <item>переводчик Microsoft</item>
-        <item>DeepL перевод</item>
-        <item>Цайюнь Сяои</item>
-        <item>Байду Переводчик</item>
-        <item>ТрансСмарт Перевод</item>
+        <item value="перевод телеграммы" />
+        <item value="Гугл переводчик" />
+        <item value="яндекс перевод" />
+        <item value="переводчик Microsoft" />
+        <item value="DeepL перевод" />
+        <item value="Цайюнь Сяои" />
+        <item value="Байду Переводчик" />
+        <item value="ТрансСмарт Перевод" />
     </string-array>
 </map>
