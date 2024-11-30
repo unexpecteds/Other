@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8' ?>
-<resources>
+<map>
     <string name="AbnormalAnalysis">Анализ аномалий</string>
     <string name="AbnormalRecords">Записи исключений</string>
     <string name="AbnormalRecordsDescriptionOf">Глобальные исключения %1$d раз, функциональные исключения %2$d раз, всего %3$d раз</string>
@@ -708,4 +708,4 @@
         <item value="Байду Переводчик" />
         <item value="ТрансСмарт Перевод" />
     </string-array>
-</resources>
+</map>
