@@ -7,7 +7,7 @@ baidu: &baidu
 
 proxies:
   - name: "🐻 苏州"
-    server: 157.0.148.53
+    server: 157.0.146.158
     <<: *baidu
 
   - name: "🐻 广州-1"
