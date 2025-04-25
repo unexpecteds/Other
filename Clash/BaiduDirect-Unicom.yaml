@@ -2,8 +2,8 @@ baidu: &baidu
   type: http
   port: 443
   headers:
-    Host: "h2tcbox.baidu.com:443"
-    X-T5-Auth: "1966547082"
+    Host: "v9-dy.ixigua.com"
+    X-T5-Auth: "203365251"
 
 proxies:
   - name: "🐻 苏州"
