@@ -2,8 +2,8 @@ baidu: &baidu
   type: http
   port: 443
   headers:
-    Host: "v9-dy.ixigua.com"
-    X-T5-Auth: "203365251"
+    Host: "pull-l3.douyincdn.com"
+    X-T5-Auth: "1370060553"
 
 proxies:
   - name: "🐻 苏州"
