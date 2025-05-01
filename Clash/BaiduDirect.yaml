@@ -1,5 +1,5 @@
 proxies:
-  - name: "🐻 苏州①"
+  - name: "🐻 pull-l3"
     server: 157.0.146.158
     type: http
     port: 443
@@ -7,7 +7,7 @@ proxies:
       Host: "pull-l3.douyincdn.com"
       X-T5-Auth: "1370060553"
 
-  - name: "🐻 苏州②"
+  - name: "🐻 pull-flv"
     server: 157.0.146.158
     type: http
     port: 443
@@ -15,7 +15,7 @@ proxies:
       Host: "pull-flv-l95.douyincdn.com"
       X-T5-Auth: "467035697"
 
-  - name: "🐻 苏州③"
+  - name: "🐻 v26"
     server: 157.0.146.158
     type: http
     port: 443
@@ -23,7 +23,7 @@ proxies:
       Host: "v26.bdxiguavod.com"
       X-T5-Auth: "969114438"
 
-  - name: "🐻 苏州④"
+  - name: "🐻 v26-l"
     server: 157.0.146.158
     type: http
     port: 443
@@ -31,7 +31,7 @@ proxies:
       Host: "v26-l.bdxiguavod.com"
       X-T5-Auth: "1203318399"
 
-  - name: "🐻 苏州⑤"
+  - name: "🐻 v9"
     server: 157.0.146.158
     type: http
     port: 443
